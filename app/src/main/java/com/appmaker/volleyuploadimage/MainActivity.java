@@ -102,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
                         RequestQueue rQueue = Volley.newRequestQueue(MainActivity.this);
                         rQueue.add(request);
+
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
